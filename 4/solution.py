@@ -23,4 +23,4 @@ for line in f:
     checksum = re.search('[a-z]+', arr[-1]).group(0)
     if get_checksum(data) == checksum:
         answer = answer + sector_id
-print answer
+print(answer)

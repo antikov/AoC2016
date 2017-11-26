@@ -11,7 +11,7 @@ def decrypt(data, cipher):
         else:
             answer += s
     return answer
-            
+
 answer = 0
 for line in f:
     arr = line.split("-")
@@ -19,4 +19,4 @@ for line in f:
     sector_id = int(re.search('\d+', arr[-1]).group(0))
     decrypt_data = decrypt(data, sector_id)
     if decrypt_data.find("north") > -1:
-        print decrypt(data, sector_id), sector_id
+        print(decrypt(data, sector_id), sector_id)
