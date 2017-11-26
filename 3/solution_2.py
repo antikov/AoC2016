@@ -14,5 +14,5 @@ for line in f:
         answer += 1 if check_valid(triangle_array[0][2], triangle_array[1][2], triangle_array[2][2]) else 0
 
         triangle_array = []
-    
-print answer
+
+print (answer)

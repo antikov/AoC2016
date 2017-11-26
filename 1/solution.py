@@ -16,5 +16,5 @@ for command in commands:
     direction = directions[direction][rotation]
     x = x + distance * directions[direction]["x"]
     y = y + distance * directions[direction]["y"]
-    
-print abs(x) + abs(y)
+
+print (abs(x) + abs(y))

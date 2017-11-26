@@ -21,4 +21,4 @@ for line in f:
         now = now if s not in keypad[now] else keypad[now][s]
 
     key = key + now
-print key
+print (key)

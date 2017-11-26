@@ -22,13 +22,13 @@ for command in commands:
     while(start_x != x):
         start_x = start_x + directions[direction]["x"]
         if (start_x, start_y) in visited:
-            print abs(start_x) + abs(start_y)
+            print (abs(start_x) + abs(start_y))
             exit(0)
         visited.append((start_x, start_y))
 
     while(start_y != y):
         start_y = start_y + directions[direction]["y"]
         if (start_x, start_y) in visited:
-            print abs(start_x) + abs(start_y)
+            print (abs(start_x) + abs(start_y))
             exit(0)
         visited.append((start_x, start_y))

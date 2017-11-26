@@ -12,6 +12,6 @@ for line in f:
             x = 0 if x == 0 else x - 1
         if (s == "D"):
             x = 2 if x == 2 else x + 1
-            
+
     key = key + str(keypad[x][y])
-print key
+print (key)
